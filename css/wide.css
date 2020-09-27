@@ -4,16 +4,19 @@
 }
 
 .container {
-  width: 1024px;
+  width: 100%;
 
   display: -webkit-flex;
   display: flex;
+  max-width: 960px;
 }
+
+
 
 .main {
   display: block;
   text-align: left;
-  width: 760px;
+  width: 80%;
   top: 0px;
   margin: 0 auto;
   margin-right: auto;
@@ -40,14 +43,13 @@
 }
 
 
-
 ul {
   list-style: none;
 }
 
 .sidebar {
   display: block;
-  width: 240px;
+  width: 20%;
 }
 
 .sidebar a {
@@ -65,8 +67,4 @@ ul {
   margin-bottom: 20px;
   top: 20px;
   z-index: 1;
-}
-
-footer p {
-  font-size: 100%;
 }
